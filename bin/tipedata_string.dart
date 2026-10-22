@@ -31,15 +31,11 @@ void main() {
   // print(universitas);
 
   String nama = 'DHIKA PRTAMA';
+  int umur = 18;
   String universitas = 'bumigora';
 
+  print('$umur'.padLeft(9,"0"));
 
-  double tinggi = double.parse("170.5");
-
-  int umur = 20;
-
-  String teksUmur = umur.toString();
-
-  print("Umur saya " + teksUmur);
+  
 
 }
